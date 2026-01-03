@@ -1,0 +1,144 @@
+/* ======== Estilos base ======== */
+body {
+    margin: 0;                  /* Elimina márgenes por defecto */
+    padding: 0;                 /* Elimina relleno por defecto */
+    /*font-family: "Roboto", Arial, sans-serif;  Fuente moderna y legible */
+    /*font-size: 16px;             Tamaño base del texto */
+    /*line-height: 1.5;            Espaciado vertical entre líneas */
+    color: #212529;             /* Color de texto (gris oscuro, estilo Bootstrap) */
+    background-color: #ffffff;  /* Fondo claro y limpio */
+    min-height: 100vh;          /* Asegura que ocupe toda la altura de la pantalla */
+    display: flex;              /* Útil si quieres un layout flexible */
+    flex-direction: column;     /* Ordena los elementos en columna */
+    height: 100%;
+}
+
+.text-muted {
+  color: #495057; /* mejor contraste */
+}
+
+/* NAVBAR GENERAL */
+.custom-navbar {
+    background-color: #49b387 !important; /* fondo oscuro */
+    padding: 15px 30px;
+}
+
+/* LOGO / HOME */
+.custom-navbar .navbar-brand {
+    color: #bd3309;
+    font-weight: 600;
+    font-size: 1.3rem;
+    background-color: #49b387 !important; /* fondo oscuro */
+}
+
+.custom-navbar .navbar-brand:hover {
+    color: #bd3309;
+}
+
+/* LINKS */
+.custom-navbar .nav-link {
+    color: #c9d1d9;
+    margin-left: 15px;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #bd3309;
+}
+
+/* LINK ACTIVO */
+.custom-navbar .nav-link.active {
+    color: #bd3309;
+    border-bottom: 2px solid #bd3309;
+}
+
+.card{
+  align-items: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+}
+
+#Home{  
+  margin-top: 60px;
+}
+
+.skill{
+  border-color: 1px solid #212529 !important;
+  margin: 0px 0px 10px 50px;
+  height: 500px;
+  border-radius: 5px;
+}
+
+.skill-img {
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+  object-fit: contain; /* evita deformación */
+}
+
+.role-img {
+  
+  width: 200px;
+  height: 200px;
+  object-fit: contain; /* evita deformación */
+}
+
+
+.img_info{
+  width: 400px;
+  height: 300px;
+  object-fit: contain; /* evita deformación */
+}
+
+.progress{
+  margin-top: 5px;
+}
+
+.info{
+  text-align  : center;
+} 
+
+.paragraph{
+  height: 200px;
+  margin-top: 20px;
+}
+
+.testimonial-img {
+  width: 200px;      /* cambia este valor */
+  height: 200px;     /* opcional */
+  object-fit: cover; /* evita deformación */
+}
+
+.social-link img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.2s ease;
+}
+
+.social-link img:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background-color: #0d1117;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.cuadro {
+  max-width: 100%;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin: 0 auto;
+}
+
+/* Ajuste específico para pantallas muy pequeñas */
+@media (max-width: 360px) {
+  .cuadro {
+    font-size: 0.9rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    width: 280px;
+  }
+}
