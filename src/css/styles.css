@@ -1,41 +1,39 @@
-/* ======== Estilos base ======== */
+
 body {
-    margin: 0;                  /* Elimina márgenes por defecto */
-    padding: 0;                 /* Elimina relleno por defecto */
-    /*font-family: "Roboto", Arial, sans-serif;  Fuente moderna y legible */
-    /*font-size: 16px;             Tamaño base del texto */
-    /*line-height: 1.5;            Espaciado vertical entre líneas */
-    color: #212529;             /* Color de texto (gris oscuro, estilo Bootstrap) */
-    background-color: #ffffff;  /* Fondo claro y limpio */
-    min-height: 100vh;          /* Asegura que ocupe toda la altura de la pantalla */
-    display: flex;              /* Útil si quieres un layout flexible */
-    flex-direction: column;     /* Ordena los elementos en columna */
+    margin: 0;                  
+    padding: 0;                 
+    
+    color: #212529;             
+    background-color: #ffffff;  
+    min-height: 100vh;          
+    display: flex;              
+    flex-direction: column;     
     height: 100%;
 }
 
 .text-muted {
-  color: #495057; /* mejor contraste */
+  color: #495057;
 }
 
-/* NAVBAR GENERAL */
+
 .custom-navbar {
-    background-color: #49b387 !important; /* fondo oscuro */
+    background-color: #49b387 !important; 
     padding: 15px 30px;
 }
 
-/* LOGO / HOME */
+
 .custom-navbar .navbar-brand {
     color: #bd3309;
     font-weight: 600;
     font-size: 1.3rem;
-    background-color: #49b387 !important; /* fondo oscuro */
+    background-color: #49b387 !important; 
 }
 
 .custom-navbar .navbar-brand:hover {
     color: #bd3309;
 }
 
-/* LINKS */
+
 .custom-navbar .nav-link {
     color: #c9d1d9;
     margin-left: 15px;
@@ -47,7 +45,7 @@ body {
     color: #bd3309;
 }
 
-/* LINK ACTIVO */
+
 .custom-navbar .nav-link.active {
     color: #bd3309;
     border-bottom: 2px solid #bd3309;
@@ -73,21 +71,21 @@ body {
   margin-top: 10px;
   width: 200px;
   height: 200px;
-  object-fit: contain; /* evita deformación */
+  object-fit: contain; 
 }
 
 .role-img {
   
   width: 200px;
   height: 200px;
-  object-fit: contain; /* evita deformación */
+  object-fit: contain; 
 }
 
 
 .img_info{
   width: 400px;
   height: 300px;
-  object-fit: contain; /* evita deformación */
+  object-fit: contain; 
 }
 
 .progress{
@@ -104,9 +102,9 @@ body {
 }
 
 .testimonial-img {
-  width: 200px;      /* cambia este valor */
-  height: 200px;     /* opcional */
-  object-fit: cover; /* evita deformación */
+  width: 200px;      
+  height: 200px;     
+  object-fit: cover; 
 }
 
 .social-link img {
@@ -133,7 +131,7 @@ body {
   margin: 0 auto;
 }
 
-/* Ajuste específico para pantallas muy pequeñas */
+
 @media (max-width: 360px) {
   .cuadro {
     font-size: 0.9rem;
@@ -142,3 +140,4 @@ body {
     width: 280px;
   }
 }
+
